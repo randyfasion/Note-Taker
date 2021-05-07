@@ -4,12 +4,7 @@ let saveNoteBtn;
 let newNoteBtn;
 let noteList;
 
-const express = require('express');
-const app = express();
 
-const PORT = process.env.PORT || 5000;
-
-app.listen(PORT, () => console.log(`server started on port ${PORT}`));
 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
@@ -83,6 +78,8 @@ const handleNoteSave = () => {
     renderActiveNote();
   });
 };
+
+//random
 
 // Delete the clicked note
 const handleNoteDelete = (e) => {
