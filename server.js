@@ -20,4 +20,8 @@ app.use(express.json());
 //home route
 app.get('/', (req,res)=> res.sendFile(path.join(__dirname, '/public/index.html')));
 
+//notes route 
+app.get('/notes', (req,res)=> res.sendFile(path.join(__dirname, '/public/notes.html')));
+
+
 app.listen(PORT, () => console.log(`server started on http://localhost:${PORT}`));
