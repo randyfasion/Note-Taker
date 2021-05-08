@@ -9,7 +9,7 @@ The application’s front end had already been created. Our task was to build th
 
 Deployed Application:
 
-<a href="#" >Deployed Application<a>
+<a href="https://randynotetaker.herokuapp.com" >Note Taker<a>
 
 
 ## Mock-Up
@@ -41,6 +41,6 @@ The following API routes was created:
 
 GitHub Repository:
 
-<a href="#">GitHub<a>
+<a href="https://github.com/randyfasion/Note-Taker">GitHub<a>
 
 
