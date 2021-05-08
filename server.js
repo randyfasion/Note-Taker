@@ -32,14 +32,14 @@ app.get('/api/notes', (req, res)=> res.json(notes));
 //post
 app.post('/api/notes', (req, res) => {
 
-    //add object to notes array
+    //add object 
     const newN = req.body 
     newN.id = uuidv4();
 
     //log data in console
     console.log("Adding Note: ", newN);
 
-    //add data to notes array
+    //add data 
     notes.push(newN);
 
     //write files to db
