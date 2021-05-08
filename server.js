@@ -49,5 +49,17 @@ app.post('/api/notes', (req, res) => {
 
 });
 
+//delete note
+app.delete('/api/notes/:id', (req, res) => {
+
+    const selectedNoteID = req.params.id;
+    console.log(`Removing item with id: ${selectedNoteID}`);
+
+    
+    notes = notes.filter(note => note.id != selectedNoteID);
+
+    res.end();
+});
+
 
 app.listen(PORT, () => console.log(`server started on http://localhost:${PORT}`));
