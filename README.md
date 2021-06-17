@@ -4,7 +4,7 @@
 
 As a small business owner, I want to be able to write and save notes so that I can organize my thoughts and keep track of tasks I need to complete. This application uses an Express.js back end and will save and retrieve note data from a JSON file.
 
-The entire application is to Heroku.
+The entire application is deployed to Heroku.
 
 
 Deployed Application:
