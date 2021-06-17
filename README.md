@@ -2,9 +2,9 @@
 
 ## Your Task
 
-In this assignment I modified starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+As a small business owner, I want to be able to write and save notes so that I can organize my thoughts and keep track of tasks I need to complete. This application uses an Express.js back end and will save and retrieve note data from a JSON file.
 
-The application’s front end had already been created. Our task was to build the back end, connect the two, and then deploy the entire application to Heroku.
+The entire application is to Heroku.
 
 
 Deployed Application:
